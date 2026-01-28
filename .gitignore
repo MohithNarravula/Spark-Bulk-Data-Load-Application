@@ -1,3 +1,18 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment files
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
 # Default ignored files
 /workspace.xml
 .idea/*
