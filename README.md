@@ -15,7 +15,7 @@ By decoupling the MDM platform using a Kafka messaging layer, this batch pipelin
 ## 📐 Solution Architecture
 To solve the scalability issue, this project implements a **Batch Data Pipeline** using PySpark on a Hadoop cluster.
 
-![Architecture Diagram](Architecture_Diagram.png)
+![images/Architecture Diagram](Architecture_Diagram.png)
 
 ### ▶️ The workflow is as follows:
 The project focuses specifically on the pipeline between the Hadoop/Hive cluster and Kafka.
