@@ -1,6 +1,7 @@
 # Spark Bulk Data Load (SBDL) Service
 
 ## 📖 Project Overview
+
 The Spark Bulk Data Load (SBDL) service is a production-grade Data Engineering pipeline designed for a multinational bank. The project addresses the challenge of synchronizing "Golden Copy" entity data from a central Master Data Management (MDM) platform to various downstream consumer systems (e.g., BI Dashboards, ML Prediction models) without overloading the source system.
 By decoupling the MDM platform using a Kafka messaging layer, this batch pipeline ensures high scalability and reliable data distribution across the enterprise.
 ---
